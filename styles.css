@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4; /* Light gray background color */
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    position: relative;
+}
+
+header img {
+    max-width: 100%;
+}
+
+header h1 {
+    margin: 20px 0;
+    color: #007BFF;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    position: relative;
+    background-color: #fff; /* White background color for sections */
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    margin: 20px 0;
+    color: #007BFF;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.image-container img {
+    max-width: 30%;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.teaching-points {
+    background-color: #007BFF; /* Blue background color for teaching points */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    margin-bottom: 10px;
+}
+
+.teaching-points h3 {
+    margin: 10px 0;
+    color: #fff; /* White text color for teaching points */
+}
+
+.teaching-points ul {
+    list-style-type: disc; /* Bullet points for teaching points */
+    margin-left: 20px;
+    color: #333; /* Dark text color for teaching points */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
